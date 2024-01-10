@@ -25,6 +25,7 @@ function checkShadowRoot2() {
 }
 */
 if (navigator.platform.indexOf("Mac") > -1) {
+    const interval = setInterval(checkShadowRoot1, 500);
     var isShadow1Created = false;
     var shadowRoot1 = null;
     function checkShadowRoot1() {
@@ -37,7 +38,6 @@ if (navigator.platform.indexOf("Mac") > -1) {
         isShadow1Created = true;
       }
     }
-    const interval = setInterval(checkShadowRoot1, 500);
   
     function checkShadowRoot2() {
       var shadowRoot2 = null;
