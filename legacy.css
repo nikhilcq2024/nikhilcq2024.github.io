@@ -1086,19 +1086,3 @@
   color: white !important;
   background: #727147;
 }
-
-@media not all and (min-resolution: 0.001dpcm) {
-  .filter-container .filter-select{
-    color: red;
-  }
-}
-@supports (-webkit-marquee-style: marquee-line) {
-  .filter-container .filter-select{
-    color: red;
-  }
-}
-@media screen and (-webkit-min-device-pixel-ratio:0) {
-  .filter-container .filter-select{
-    color: red;
-  }
-}
