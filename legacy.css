@@ -1097,3 +1097,8 @@
     color: red;
   }
 }
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  .filter-container .filter-select{
+    color: red;
+  }
+}
