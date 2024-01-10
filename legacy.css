@@ -1092,3 +1092,8 @@
     color: red;
   }
 }
+@supports (-webkit-marquee-style: marquee-line) {
+  .filter-container .filter-select{
+    color: red;
+  }
+}
